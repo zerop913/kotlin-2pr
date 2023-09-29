@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Практическая работа №2</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .tooltip {
+        position: relative;
+        display: inline-block;
+      }
+
+      .tooltip:hover::after {
+        content: "Выбран рандомно";
+        position: absolute;
+        top: 28px;
+        left: 100%;
+        padding: 6px 12px;
+        background-color: #333;
+        color: #fff;
+        border-radius: 4px;
+        white-space: nowrap;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100">
+    <header class="bg-gray-500 text-white py-4">
+      <div class="container mx-auto text-center">
+        <h1 class="text-3xl font-semibold mb-3">Практическая работа №2</h1>
+        <div class="tooltip mb-2 mx-auto">
+          <span class="text-xl font-semibold mb-2 cursor-pointer"
+            >Вариант 3</span
+          >
+        </div>
+      </div>
+    </header>
+
+    <main class="container mx-auto mt-6 p-4">
+      <section class="mb-8">
+        <h2 class="text-2xl font-semibold">1 задание</h2>
+        <p class="mb-4">
+          Условие: Запишите букву 'A' (латинскую, заглавную) 100 раз подряд.
+          Выведите эту строчку (Решите задачу без использования готовых методов)
+        </p>
+        <div class="bg-white p-4 rounded-lg shadow-md">
+          <iframe
+            src="https://pl.kotl.in/T_t4ucb0K"
+            class="w-full h-64"
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="mb-8">
+        <h2 class="text-2xl font-semibold">2 задание</h2>
+        <p class="mb-4">Условие: Вычислить значение выражения</p>
+        <div class="bg-white p-4 rounded-lg shadow-md">
+          <iframe
+            src="https://pl.kotl.in/gE7w4GUCG"
+            class="w-full h-64"
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="mb-8">
+        <h2 class="text-2xl font-semibold">3 задание</h2>
+        <p class="mb-4">
+          Условие: Даны вещественные числа r1 и r2. Найти площадь кольца,
+          образованного двумя окружностями с радиусами r1 и r2.
+        </p>
+        <div class="bg-white p-4 rounded-lg shadow-md">
+          <iframe
+            src="https://pl.kotl.in/BxHfUfTPQ"
+            class="w-full h-64"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-gray-500 py-4">
+      <div class="container mx-auto text-center text-white">
+        <p>&copy; 2023 Смолин Иван</p>
+      </div>
+    </footer>
+  </body>
+</html>
